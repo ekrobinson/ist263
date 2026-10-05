@@ -1,0 +1,13 @@
+body {font-family: Verdana, sans-serif;}
+
+h1, h2 {color: DarkOrange;}
+
+h1 {font-size: 2.5em;}
+
+h2 {font-size: 1.75em;}
+
+table, th, td {border: 1px solid black;}
+
+.evenrow {background-color: LightGray;}
+
+iframe {border: 0;}
