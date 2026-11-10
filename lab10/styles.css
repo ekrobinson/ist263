@@ -1,0 +1,40 @@
+body {font-family: Verdana, sans-serif; background-color: #FAF7F2; color: #222222;}
+
+a {color: #B33900;}
+
+h1, h2 {color: #000E54;}
+
+nav {background-color: #000E54; padding: 10px; margin-bottom: 30px;}
+
+nav a {color: #FFFFFF;}
+
+nav a:hover {background-color: #D44500;}
+
+h1 {font-size: 2.5em;}
+
+h2 {font-size: 1.75em;}
+
+.center {text-align: center;}
+
+table, th, td {border: 1px solid black;}
+
+.evenrow {background-color: LightGray;}
+
+iframe {border: 0;}
+
+.tagline {float: right;}
+
+.flex-img {max-width: 100%;}
+
+.contact-row {display: flex; flex-wrap: wrap; margin: 20px;}
+
+.contact-box {flex: 1; margin: 10px; padding: 20px; background-color: #fff1e0; border-radius: 1em;}
+
+.contact-box iframe {width: 100%;}
+
+#name, #message {width: 100%;}
+
+@media (max-width: 768px) {
+    nav a {width: 100%; display: block; padding: 5px 0;}
+    nav span {display: none;}
+}
