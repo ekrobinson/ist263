@@ -1,10 +1,12 @@
 body {font-family: Arial, sans-serif; background-color: #F2F2F2; color: #222222;}
 
-header {background-color: #041E42; padding: 10px;}
+header {background-color: #041E42; padding: 10px; display: flex; flex-wrap: wrap;}
 
 h1 {color: #FFFFFF; font-size: 2.5em;}
 
 h2 {color: #041E42; font-size: 1.75em;}
+
+nav {margin-top: 30px; margin-left: 20px;}
 
 nav li {display: inline; padding: 10px;}
 
@@ -12,13 +14,13 @@ nav a {color: #FFFFFF;}
 
 nav a:hover {background-color: #C8102E;}
 
-main {display: flex; flex-wrap: wrap;}
+section, aside {background-color: #FFFFFF; margin: 10px; padding: 20px; border-radius: 1em;}
 
-.stories {flex: 3;}
+.row {display: flex; flex-wrap: wrap;}
+
+.league {flex: 2;}
 
 aside {flex: 1;}
-
-section, aside {background-color: #FFFFFF; margin: 10px; padding: 20px; border-radius: 1em;}
 
 .flex-img {max-width: 100%;}
 
@@ -31,7 +33,9 @@ iframe {width: 100%; height: 200px; border: 0;}
 footer {background-color: #041E42; color: #FFFFFF; text-align: center; padding: 10px;}
 
 @media (max-width: 768px) {
-    main {display: block;}
-    .video-row {display: block;}
+    header {display: block;}
+    nav {margin: 0;}
     nav li {display: block; padding: 5px 0;}
+    .row {display: block;}
+    .video-row {display: block;}
 }
